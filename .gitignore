@@ -5,6 +5,7 @@
 .nitro
 .cache
 dist
+.nooku
 
 # Node dependencies
 node_modules
