@@ -10,12 +10,23 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/ui": "^3.0.0",
+    "@nuxt/ui": "^3.0.2",
     "@vueuse/core": "^13.0.0",
     "@vueuse/nuxt": "^13.0.0",
-    "nuxt": "^3.16.1"
+    "nuxt": "^3.16.2"
   },
   "devDependencies": {
-    "@nookuio/nuxt": "^1.2.8"
+    "@nookuio/nuxt": "^1.4.9"
+  },
+  "overrides": {
+    "tailwindcss": "4.0.7",
+    "@tailwindcss/node": "4.0.7",
+    "@tailwindcss/postcss": "4.0.7",
+    "@tailwindcss/vite": "4.0.7"
+  },
+  "resolutions": {
+    "tailwindcss": "4.0.7",
+    "@tailwindcss/postcss": "4.0.7",
+    "@tailwindcss/vite": "4.0.7"
   }
 }
