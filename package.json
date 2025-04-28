@@ -10,13 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/ui": "^3.0.2",
-    "@vueuse/core": "^13.0.0",
-    "@vueuse/nuxt": "^13.0.0",
-    "nuxt": "^3.16.2"
+    "@nuxt/ui": "^3.1.0",
+    "@vueuse/core": "^13.1.0",
+    "@vueuse/nuxt": "^13.1.0",
+    "nuxt": "^3.17.0"
   },
   "devDependencies": {
-    "@nookuio/nuxt": "^1.4.9"
+    "@nookuio/nuxt": "^1.5.5"
   },
   "overrides": {
     "tailwindcss": "4.0.7",
